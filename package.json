@@ -1,0 +1,41 @@
+{
+  "name": "jest-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thormod/jest-example.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Jest",
+    "Practice"
+  ],
+  "author": "Thormod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thormod/jest-example/issues"
+  },
+  "homepage": "https://github.com/Thormod/jest-example#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "http-status-codes": "^1.3.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/superagent": "^3.8.5",
+    "jest-html-reporter": "^2.4.2",
+    "superagent": "^4.0.0",
+    "superagent-promise": "^1.1.0"
+  }
+}
