@@ -335,3 +335,4 @@ ASALocalRun/
 # Jest
 coverage
 reports/*
+.env
